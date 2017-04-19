@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F5491CD1D5DBE8E00749116 /* MyDoloryCe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5491CC1D5DBE8E00749116 /* MyDoloryCe.m */; };
+		9F6B25831D543F4C00E4928F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B25821D543F4C00E4928F /* main.m */; };
+		9F6B25861D543F4C00E4928F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B25851D543F4C00E4928F /* AppDelegate.m */; };
+		9F6B25891D543F4C00E4928F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B25881D543F4C00E4928F /* ViewController.m */; };
+		9F6B258E1D543F4C00E4928F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B258D1D543F4C00E4928F /* Assets.xcassets */; };
+		9F6B259C1D543F4C00E4928F /* MyDoloryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B259B1D543F4C00E4928F /* MyDoloryTests.m */; };
+		9F6B25A71D543F4C00E4928F /* MyDoloryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B25A61D543F4C00E4928F /* MyDoloryUITests.m */; };
+		9F7E228E1E94E4BF008F1224 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E228D1E94E4BF008F1224 /* RootViewController.m */; };
+		9F7E22911E94E7C3008F1224 /* LargeBallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E22901E94E7C3008F1224 /* LargeBallViewController.m */; };
+		9F7E22941E94F14A008F1224 /* LargeBallTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E22931E94F14A008F1224 /* LargeBallTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F6B25981D543F4C00E4928F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F6B25761D543F4C00E4928F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F6B257D1D543F4C00E4928F;
+			remoteInfo = MyDolory;
+		};
+		9F6B25A31D543F4C00E4928F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F6B25761D543F4C00E4928F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F6B257D1D543F4C00E4928F;
+			remoteInfo = MyDolory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F5491CB1D5DBE8E00749116 /* MyDoloryCe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDoloryCe.h; sourceTree = "<group>"; };
+		9F5491CC1D5DBE8E00749116 /* MyDoloryCe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDoloryCe.m; sourceTree = "<group>"; };
+		9F6B257E1D543F4C00E4928F /* MyDolory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDolory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6B25821D543F4C00E4928F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F6B25841D543F4C00E4928F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F6B25851D543F4C00E4928F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F6B25871D543F4C00E4928F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F6B25881D543F4C00E4928F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F6B258D1D543F4C00E4928F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F6B25921D543F4C00E4928F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6B25971D543F4C00E4928F /* MyDoloryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDoloryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6B259B1D543F4C00E4928F /* MyDoloryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDoloryTests.m; sourceTree = "<group>"; };
+		9F6B259D1D543F4C00E4928F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6B25A21D543F4C00E4928F /* MyDoloryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDoloryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6B25A61D543F4C00E4928F /* MyDoloryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDoloryUITests.m; sourceTree = "<group>"; };
+		9F6B25A81D543F4C00E4928F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F7E228C1E94E4BF008F1224 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		9F7E228D1E94E4BF008F1224 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		9F7E228F1E94E7C3008F1224 /* LargeBallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargeBallViewController.h; sourceTree = "<group>"; };
+		9F7E22901E94E7C3008F1224 /* LargeBallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LargeBallViewController.m; sourceTree = "<group>"; };
+		9F7E22921E94F14A008F1224 /* LargeBallTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargeBallTableViewCell.h; sourceTree = "<group>"; };
+		9F7E22931E94F14A008F1224 /* LargeBallTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LargeBallTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F6B257B1D543F4C00E4928F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6B25941D543F4C00E4928F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6B259F1D543F4C00E4928F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F6B25751D543F4C00E4928F = {
+			isa = PBXGroup;
+			children = (
+				9F6B25801D543F4C00E4928F /* MyDolory */,
+				9F6B259A1D543F4C00E4928F /* MyDoloryTests */,
+				9F6B25A51D543F4C00E4928F /* MyDoloryUITests */,
+				9F6B257F1D543F4C00E4928F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F6B257F1D543F4C00E4928F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F6B257E1D543F4C00E4928F /* MyDolory.app */,
+				9F6B25971D543F4C00E4928F /* MyDoloryTests.xctest */,
+				9F6B25A21D543F4C00E4928F /* MyDoloryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F6B25801D543F4C00E4928F /* MyDolory */ = {
+			isa = PBXGroup;
+			children = (
+				9F6B25841D543F4C00E4928F /* AppDelegate.h */,
+				9F6B25851D543F4C00E4928F /* AppDelegate.m */,
+				9F6B25871D543F4C00E4928F /* ViewController.h */,
+				9F6B25881D543F4C00E4928F /* ViewController.m */,
+				9F7E228C1E94E4BF008F1224 /* RootViewController.h */,
+				9F7E228D1E94E4BF008F1224 /* RootViewController.m */,
+				9F7E228F1E94E7C3008F1224 /* LargeBallViewController.h */,
+				9F7E22901E94E7C3008F1224 /* LargeBallViewController.m */,
+				9F7E22921E94F14A008F1224 /* LargeBallTableViewCell.h */,
+				9F7E22931E94F14A008F1224 /* LargeBallTableViewCell.m */,
+				9F6B258D1D543F4C00E4928F /* Assets.xcassets */,
+				9F6B25921D543F4C00E4928F /* Info.plist */,
+				9F6B25811D543F4C00E4928F /* Supporting Files */,
+				9F5491CB1D5DBE8E00749116 /* MyDoloryCe.h */,
+				9F5491CC1D5DBE8E00749116 /* MyDoloryCe.m */,
+			);
+			path = MyDolory;
+			sourceTree = "<group>";
+		};
+		9F6B25811D543F4C00E4928F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F6B25821D543F4C00E4928F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F6B259A1D543F4C00E4928F /* MyDoloryTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F6B259B1D543F4C00E4928F /* MyDoloryTests.m */,
+				9F6B259D1D543F4C00E4928F /* Info.plist */,
+			);
+			path = MyDoloryTests;
+			sourceTree = "<group>";
+		};
+		9F6B25A51D543F4C00E4928F /* MyDoloryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F6B25A61D543F4C00E4928F /* MyDoloryUITests.m */,
+				9F6B25A81D543F4C00E4928F /* Info.plist */,
+			);
+			path = MyDoloryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F6B257D1D543F4C00E4928F /* MyDolory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F6B25AB1D543F4C00E4928F /* Build configuration list for PBXNativeTarget "MyDolory" */;
+			buildPhases = (
+				9F6B257A1D543F4C00E4928F /* Sources */,
+				9F6B257B1D543F4C00E4928F /* Frameworks */,
+				9F6B257C1D543F4C00E4928F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDolory;
+			productName = MyDolory;
+			productReference = 9F6B257E1D543F4C00E4928F /* MyDolory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F6B25961D543F4C00E4928F /* MyDoloryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F6B25AE1D543F4C00E4928F /* Build configuration list for PBXNativeTarget "MyDoloryTests" */;
+			buildPhases = (
+				9F6B25931D543F4C00E4928F /* Sources */,
+				9F6B25941D543F4C00E4928F /* Frameworks */,
+				9F6B25951D543F4C00E4928F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F6B25991D543F4C00E4928F /* PBXTargetDependency */,
+			);
+			name = MyDoloryTests;
+			productName = MyDoloryTests;
+			productReference = 9F6B25971D543F4C00E4928F /* MyDoloryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F6B25A11D543F4C00E4928F /* MyDoloryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F6B25B11D543F4C00E4928F /* Build configuration list for PBXNativeTarget "MyDoloryUITests" */;
+			buildPhases = (
+				9F6B259E1D543F4C00E4928F /* Sources */,
+				9F6B259F1D543F4C00E4928F /* Frameworks */,
+				9F6B25A01D543F4C00E4928F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F6B25A41D543F4C00E4928F /* PBXTargetDependency */,
+			);
+			name = MyDoloryUITests;
+			productName = MyDoloryUITests;
+			productReference = 9F6B25A21D543F4C00E4928F /* MyDoloryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F6B25761D543F4C00E4928F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = izaodao;
+				TargetAttributes = {
+					9F6B257D1D543F4C00E4928F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9F6B25961D543F4C00E4928F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9F6B257D1D543F4C00E4928F;
+					};
+					9F6B25A11D543F4C00E4928F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9F6B257D1D543F4C00E4928F;
+					};
+				};
+			};
+			buildConfigurationList = 9F6B25791D543F4C00E4928F /* Build configuration list for PBXProject "MyDolory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F6B25751D543F4C00E4928F;
+			productRefGroup = 9F6B257F1D543F4C00E4928F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F6B257D1D543F4C00E4928F /* MyDolory */,
+				9F6B25961D543F4C00E4928F /* MyDoloryTests */,
+				9F6B25A11D543F4C00E4928F /* MyDoloryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F6B257C1D543F4C00E4928F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6B258E1D543F4C00E4928F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6B25951D543F4C00E4928F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6B25A01D543F4C00E4928F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F6B257A1D543F4C00E4928F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6B25891D543F4C00E4928F /* ViewController.m in Sources */,
+				9F6B25861D543F4C00E4928F /* AppDelegate.m in Sources */,
+				9F5491CD1D5DBE8E00749116 /* MyDoloryCe.m in Sources */,
+				9F7E22941E94F14A008F1224 /* LargeBallTableViewCell.m in Sources */,
+				9F6B25831D543F4C00E4928F /* main.m in Sources */,
+				9F7E228E1E94E4BF008F1224 /* RootViewController.m in Sources */,
+				9F7E22911E94E7C3008F1224 /* LargeBallViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6B25931D543F4C00E4928F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6B259C1D543F4C00E4928F /* MyDoloryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6B259E1D543F4C00E4928F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6B25A71D543F4C00E4928F /* MyDoloryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F6B25991D543F4C00E4928F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F6B257D1D543F4C00E4928F /* MyDolory */;
+			targetProxy = 9F6B25981D543F4C00E4928F /* PBXContainerItemProxy */;
+		};
+		9F6B25A41D543F4C00E4928F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F6B257D1D543F4C00E4928F /* MyDolory */;
+			targetProxy = 9F6B25A31D543F4C00E4928F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F6B25A91D543F4C00E4928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F6B25AA1D543F4C00E4928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F6B25AC1D543F4C00E4928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyDolory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangou.MyDolory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F6B25AD1D543F4C00E4928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyDolory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangou.MyDolory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F6B25AF1D543F4C00E4928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyDoloryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangou.MyDoloryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyDolory.app/MyDolory";
+			};
+			name = Debug;
+		};
+		9F6B25B01D543F4C00E4928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyDoloryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangou.MyDoloryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyDolory.app/MyDolory";
+			};
+			name = Release;
+		};
+		9F6B25B21D543F4C00E4928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyDoloryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangou.MyDoloryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyDolory;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9F6B25B31D543F4C00E4928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyDoloryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangou.MyDoloryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyDolory;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F6B25791D543F4C00E4928F /* Build configuration list for PBXProject "MyDolory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6B25A91D543F4C00E4928F /* Debug */,
+				9F6B25AA1D543F4C00E4928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F6B25AB1D543F4C00E4928F /* Build configuration list for PBXNativeTarget "MyDolory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6B25AC1D543F4C00E4928F /* Debug */,
+				9F6B25AD1D543F4C00E4928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F6B25AE1D543F4C00E4928F /* Build configuration list for PBXNativeTarget "MyDoloryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6B25AF1D543F4C00E4928F /* Debug */,
+				9F6B25B01D543F4C00E4928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F6B25B11D543F4C00E4928F /* Build configuration list for PBXNativeTarget "MyDoloryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6B25B21D543F4C00E4928F /* Debug */,
+				9F6B25B31D543F4C00E4928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F6B25761D543F4C00E4928F /* Project object */;
+}
